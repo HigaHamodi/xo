@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Skranji&display=swap" rel="stylesheet">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="right-sidebar-grid">
+        <header class="header">Tic-Tac-Toe</header>
+        <main class="main-content">
+            <div id="gameboard"></div>
+            <p id="info"></p>
+            <button id="newGameButton">Start New Game</button>
+        </main>
+        <section class="right-sidebar">
+            <div>
+                <p>Circle Wins: <span id="circleWinsCount">0</span></p>
+                <p>Cross Wins: <span id="crossWinsCount">0</span></p>
+                <p>Draws: <span id="drawsCount">0</span></p>
+            </div>
+        </section>
+        <footer class="footer"></footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
